@@ -1,2 +1,4 @@
 # ActiveROI-BM: Active ROI Localization for Hematological Disease Diagnosis in Bone Marrow Smear WSIs
 Zhengyi Wang, Jie Su, Yaqi Yang, Kunpeng Sui, Jinming Song
+## Vision-Guided Textual Conditioning
+Vision-Guided Textual Conditioning (VGTC) first generates a low-resolution representation of the WSI through pyramid-based downsampling, as shown in Fig.1(a). The Visual Prior-Guided Localization (VPL) algorithm is then applied to identify bone marrow particle regions in the downsampled image, as illustrated in Fig.1(b). The localized regions are projected back onto the corresponding low-resolution image and combined with a fixed prompt template, ***“Please use a concise and clear sentence to describe the bone marrow particle region inside the red bounding box.”*** The image-text pairs are subsequently fed into a large language model (LLM) to generate region-specific textual descriptions, as shown in Fig.1(c).
