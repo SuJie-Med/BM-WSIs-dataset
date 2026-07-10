@@ -1,5 +1,6 @@
 # ActiveROI-BM: Active ROI Localization for Hematological Disease Diagnosis in Bone Marrow Smear WSIs
 Zhengyi Wang, Jie Su, Yaqi Yang, Kunpeng Sui, Jinming Song
+![Graphical Abstract](https://github.com/SuJie-Med/BM-WSIs-dataset/blob/master/fig/Graphical Abstract .png)
 
 ***
 ## Vision-Guided Textual Conditioning
